@@ -1,0 +1,204 @@
+html {
+	background-color: #1b0090;
+	overflow:hidden;
+}
+
+#parentdiv
+    {
+        position: absolute;
+		top:50%;
+		left:50%;
+		margin: -75px 0 0 -75px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+		box-shadow: 0px 0px 15px 7.5px rgba(0,0,0,0.35);
+    }
+
+#logo {
+		position: absolute;
+		top:50%;
+		left:50%;
+		margin: -75px 0 0 -75px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+		display: inline-block;
+		object-fit: cover;
+		background-image: url("../images/logo.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 150px 150px;
+		box-shadow: 0px 0px 15px 7.5px rgba(0,0,0,0.35);
+		z-index: 1;
+}
+
+#circlemenu
+    {
+		position:absolute;
+		left:100%;
+		top:25%;
+		margin-left: -225px;
+        height: 50%;
+        background-color: yellow;
+        border-radius: 50%;
+		z-index: 1;
+		box-shadow: 0px 0px 15px 7.5px rgba(0,0,0,0.35);
+    }
+
+.twitch {
+	margin: -62.5px 0 0 -62.5px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+	display: inline-block;
+	object-fit: contain;
+	background-image: url("../images/twitch.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 125px 125px;
+	background-color:rgba(0,0,0,0.8);
+  	box-shadow: 0px 0px 15px 7.5px rgba(0,0,0,0.35);
+	z-index: 1;
+}
+
+.twitch:hover {
+	background-image: url("../images/twitch.png");
+}
+
+.business {
+	margin: -62.5px 0 0 -62.5px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+	display: inline-block;
+	object-fit: contain;
+	background-image: url("../images/briefcase.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 125px 125px;
+	background-color:rgba(0,0,0,0.8);
+  	box-shadow: 0px 0px 15px 7.5px rgba(0,0,0,0.35);
+	z-index: 1;
+}
+
+.business:hover {
+	background-image: url("../images/briefcase.png");
+	
+}
+
+.youtube {
+	margin: -62.5px 0 0 -62.5px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+	display: inline-block;
+	object-fit: contain;
+	background-image: url("../images/youtube.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 125px 125px;
+	background-color:rgba(0,0,0,0.8);
+  	box-shadow: 0px 0px 15px 7.5px rgba(0,0,0,0.35);
+	z-index: 1;
+}
+
+.youtube:hover {
+	background-image: url("../images/youtube.png");
+}
+
+.discord {
+	margin: -62.5px 0 0 -62.5px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+	display: inline-block;
+	object-fit: contain;
+	background-image: url("../images/discord.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 125px 125px;
+	background-color:rgba(0,0,0,0.8);
+  	box-shadow: 0px 0px 15px 7.5px rgba(0,0,0,0.35);
+	z-index: 1;
+}
+
+.discord:hover {
+	background-image: url("../images/discord.png");
+}
+
+.contact {
+	margin: -62.5px 0 0 -62.5px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+	display: inline-block;
+	object-fit: contain;
+	background-image: url("../images/me.JPG");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 125px 125px;
+	background-color:rgba(0,0,0,0.8);
+  	box-shadow: 0px 0px 15px 7.5px rgba(0,0,0,0.35);
+	z-index: 1;
+}
+
+.contact:hover {
+	/*background-image: url("../images/contact.png");*/
+}
+
+.logoline {
+	height: 10px;
+	width: 600px;
+	z-index: 0;
+	position:absolute;
+	background:white;
+	margin-left: 750px;
+}
+
+.centerline {
+	width: 350px;
+	height: 5px;
+	background: white;
+	position:absolute;
+	z-index: 0;
+	margin-left:-175px;
+}
+
+.diag1 {
+	transform: rotate(60deg);
+}
+
+.diag2 {
+	transform: rotate(-60deg);
+}
+
+.horiz {
+	
+}
+
+.title {
+	color: white;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+.twitchTitle {
+	
+}
+
+.businessTitle {
+	
+}
+
+#youtubeTitle {
+	position:absolute;
+}
+
+.discordTitle {
+	
+}
+
+.contactTitle{
+	
+}
