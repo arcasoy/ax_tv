@@ -1,5 +1,5 @@
-const BALL_DIM = 80;
-const IMAGE_DIM = 56;
+const BALL_DIM = 100;
+const IMAGE_DIM = 70;
 
 class Ball {
   constructor(ballObj) {
@@ -88,9 +88,9 @@ function createBalls() {
     pos: createVector(100, 500),
     link: "http://kerpar.co",
     img1: "images/logo.jpg",
-    img2: "images/me.jpg",
+    img2: "images/logo.jpg",
     col1: 0,
-    col2: 255
+    col2: 0
   }));
 
   return balls;
