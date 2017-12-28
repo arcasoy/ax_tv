@@ -63,7 +63,35 @@ function createBalls() {
     col2: color(255, 0, 0)
   }));
 
+  // Business
+  balls.push(new Ball({
+    pos: createVector(100, 300),
+    link: "http://kerpar.co",
+    img1: "images/briefcase.jpg",
+    img2: "images/briefcase.png",
+    col1: 255,
+    col2: color(35, 177, 77)
+  }));
 
+  // Discord
+  balls.push(new Ball({
+    pos: createVector(300, 300),
+    link: "http://kerpar.co",
+    img1: "images/discord.jpg",
+    img2: "images/discord.png",
+    col1: 255,
+    col2: color(140, 158, 255)
+  }));
+
+  // Alex
+  balls.push(new Ball({
+    pos: createVector(100, 500),
+    link: "http://kerpar.co",
+    img1: "images/logo.jpg",
+    img2: "images/me.jpg",
+    col1: 0,
+    col2: 255
+  }));
 
   return balls;
 }

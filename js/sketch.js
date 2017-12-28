@@ -3,7 +3,7 @@ let balls;
 function setup() {
 
   let width = 0.5 * displayWidth;
-  let height = 0.8 * displayHeight;
+  let height = 0.75 * displayHeight;
   let canvas = createCanvas(width, height);
   canvas.parent("circle-menu");
 
