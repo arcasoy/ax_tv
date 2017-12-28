@@ -43,14 +43,14 @@ class Ball {
 function createBalls() {
   let balls = [];
 
-  // Twitch
+  // Alex
   balls.push(new Ball({
-    pos: createVector(100, 100),
-    link: "https://www.twitch.tv/ax_tv",
-    img1: "images/twitch.jpg",
-    img2: "images/twitch.png",
-    col1: 255,
-    col2: color(100, 65, 165)
+    pos: createVector(100, 500),
+    link: "http://kerpar.co",
+    img1: "images/logo.jpg",
+    img2: "images/logo.jpg",
+    col1: 0,
+    col2: 0
   }));
 
   // YouTube
@@ -83,14 +83,14 @@ function createBalls() {
     col2: color(140, 158, 255)
   }));
 
-  // Alex
+  // Twitch
   balls.push(new Ball({
-    pos: createVector(100, 500),
-    link: "http://kerpar.co",
-    img1: "images/logo.jpg",
-    img2: "images/logo.jpg",
-    col1: 0,
-    col2: 0
+    pos: createVector(100, 100),
+    link: "https://www.twitch.tv/ax_tv",
+    img1: "images/twitch.jpg",
+    img2: "images/twitch.png",
+    col1: 255,
+    col2: color(100, 65, 165)
   }));
 
   return balls;

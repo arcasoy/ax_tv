@@ -3,6 +3,7 @@ let wheelCenter;
 let radius;
 
 let angle = 0;
+let omega = 0;
 
 function setup() {
 
@@ -22,6 +23,12 @@ function setup() {
 function draw() {
   background("#123456");
 
+  drawWheel();
+  wheelUpdate();
+  console.log(angle, omega);
+}
+
+function drawWheel() {
   let len = balls.length;
   let increment = 2 * PI / len;
   for (let i = 0; i < balls.length; i++) {
@@ -33,10 +40,14 @@ function draw() {
   for (let i = 0; i < balls.length; i++) {
     balls[i].render();
   }
-
 }
 
 function mouseWheel(event) {
   let c = 0.001;
-  angle += c * event.delta;
+  omega += c * event.delta;
+}
+
+function wheelUpdate() {
+  angle += omega;
+  omega *= 0.3;
 }
