@@ -9,6 +9,8 @@ class Ball {
     this.img2 = loadImage(ballObj.img2);
     this.col1 = ballObj.col1;
     this.col2 = ballObj.col2;
+    this.title = ballObj.title;
+    this.content = ballObj.content;
   }
 
   render() {
@@ -45,6 +47,8 @@ function createBalls() {
 
   // Alex
   balls.push(new Ball({
+    title: "Alex's Website",
+    content: "This is some randomly generated text that just so happens to contain perfect English. I need to longify this thing so that I know it can withstand whatever Alex wants to throw at it.",
     pos: createVector(100, 500),
     link: "http://kerpar.co",
     img1: "images/logo.jpg",
@@ -55,6 +59,8 @@ function createBalls() {
 
   // YouTube
   balls.push(new Ball({
+    title: "YouTube",
+    content: "This is some randomly generated text that just so happens to contain perfect English. I need to longify this thing so that I know it can withstand whatever Alex wants to throw at it.",
     pos: createVector(300, 100),
     link: "http://kerpar.co",
     img1: "images/youtube.jpg",
@@ -65,6 +71,8 @@ function createBalls() {
 
   // Business
   balls.push(new Ball({
+    title: "Business",
+    content: "This is some randomly generated text that just so happens to contain perfect English. I need to longify this thing so that I know it can withstand whatever Alex wants to throw at it.",
     pos: createVector(100, 300),
     link: "http://kerpar.co",
     img1: "images/briefcase.jpg",
@@ -75,6 +83,8 @@ function createBalls() {
 
   // Discord
   balls.push(new Ball({
+    title: "Discord",
+    content: "This is some randomly generated text that just so happens to contain perfect English. I need to longify this thing so that I know it can withstand whatever Alex wants to throw at it.",
     pos: createVector(300, 300),
     link: "http://kerpar.co",
     img1: "images/discord.jpg",
@@ -85,6 +95,8 @@ function createBalls() {
 
   // Twitch
   balls.push(new Ball({
+    title: "Twitch",
+    content: "This is some randomly generated text that just so happens to contain perfect English. I need to longify this thing so that I know it can withstand whatever Alex wants to throw at it.",
     pos: createVector(100, 100),
     link: "https://www.twitch.tv/ax_tv",
     img1: "images/twitch.jpg",

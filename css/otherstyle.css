@@ -1,3 +1,32 @@
 body {
+  margin: 5;
+  padding: 0;
   background-color: #123456;
+  color: white;
+  font-family: "Verdana";
+}
+
+#main {
+  display: inline-table;
+}
+
+#aside {
+  width: 60vw;
+}
+
+#title {
+  text-decoration: none;
+  color : lightblue;
+  font-size : 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#title:hover {
+  color: white;
+}
+
+#content {
+  font-family: "Book Antiqua";
+  font-size: 28px;
 }
