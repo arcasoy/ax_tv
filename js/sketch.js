@@ -38,6 +38,12 @@ function setup() {
 function draw() {
   background("#123456");
 
+  noStroke();
+  fill("lightblue");
+  rectMode(CENTER);
+  rect(0, height / 2, radius * 2, 25);
+  ellipse(radius, height / 2, 25, 25);
+
   drawWheel();
   wheelUpdate();
   drawText();
