@@ -86,7 +86,7 @@ function createBalls() {
     title: "Discord",
     content: "This is some randomly generated text that just so happens to contain perfect English. I need to longify this thing so that I know it can withstand whatever Alex wants to throw at it.",
     pos: createVector(300, 300),
-    link: "http://kerpar.co",
+    link: "https://discord.gg/f7bk4yU",
     img1: "images/discord.jpg",
     img2: "images/discord.png",
     col1: 255,

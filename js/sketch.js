@@ -14,10 +14,11 @@ let content;
 
 function setup() {
 
-  let width = 0.3 * displayWidth;
-  let height = 0.8 * displayHeight;
+  let width = 0.3 * windowWidth;
+  let height = windowHeight;
   let canvas = createCanvas(width, height);
   canvas.parent("circle-menu");
+  canvas.position(0, 0);
 
   balls = createBalls();
   len = balls.length;
@@ -72,7 +73,7 @@ function mouseClicked() {
   for (let i = 0; i < balls.length; i++) {
     if (balls[i].hovered()) {
       moving = true;
-      desiredAngle = balls[i].angle;
+      desiredAngle = 360/balls.length;//balls[i].angle;
     }
   }
 }
