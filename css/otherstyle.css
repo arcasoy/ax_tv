@@ -1,7 +1,11 @@
+html {
+	/*overflow-y:hidden;*/
+}
+
 body {
   margin: 5;
   padding: 0;
-  background-color: #123456;
+  background-color: #1b0090;
   color: white;
   font-family: "Verdana";
 }
