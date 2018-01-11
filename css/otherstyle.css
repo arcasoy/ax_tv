@@ -1,11 +1,12 @@
 html {
 	/*overflow-y:hidden;*/
+    background-color: #0051FF;
 }
 
 body {
   margin: 5;
   padding: 0;
-  background-color: #1b0090;
+  background-color: #0051FF;
   color: white;
   font-family: "Verdana";
 }
@@ -16,6 +17,10 @@ body {
 
 #aside {
   width: 60vw;
+  /* TO surround words with box
+border-color:yellow;
+  border: 10vw;
+    */
 }
 
 #title {
@@ -34,3 +39,7 @@ body {
   font-family: "Book Antiqua";
   font-size: 28px;
 }
+
+/*Try to get a shadow going around all of the bubbles. then get another yellow circle on the back and figue out a way to scale the bubbles to each other. We are going to make these two styles coordinate
+
+Also we have to flip the side of the wheel that the text reads from and make the wheel snap to the different images better*/

@@ -18,7 +18,7 @@ function setup() {
   let height = windowHeight;
   let canvas = createCanvas(width, height);
   canvas.parent("circle-menu");
-  canvas.position(0, 0);
+  canvas.position(windowWidth - width, 0);
 
   balls = createBalls();
   len = balls.length;
@@ -27,8 +27,8 @@ function setup() {
     balls[i].angle = 2 * PI - i * increment;
   }
 
-  wheelCenter = createVector(40, (height / 2));
-  radius = 250;
+  wheelCenter = createVector(width, (height / 2));
+  radius = 0.115 * windowWidth;
 
   title = select("#title");
   content = select("#content");
@@ -37,14 +37,7 @@ function setup() {
 }
 
 function draw() {
-  background("#123456");
-
-  noStroke();
-  fill("lightblue");
-  rectMode(CENTER);
-  rect(0, height / 2, radius * 2, 25);
-  ellipse(radius, height / 2, 25, 25);
-
+  background("#0051FF");
   drawWheel();
   wheelUpdate();
   drawText();
